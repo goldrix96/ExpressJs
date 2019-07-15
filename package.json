@@ -1,0 +1,22 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pwd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldrix96/ExpressJs.git"
+  },
+  "author": "IgorK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldrix96/ExpressJs/issues"
+  },
+  "homepage": "https://github.com/goldrix96/ExpressJs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
