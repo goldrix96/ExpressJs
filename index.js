@@ -1,10 +1,26 @@
 const express = require('express');
 const path = require('path')
-const logger = require
+// const logger = require
 const members = require('./members');
 const logger = require('./midlware/logger')
 const app = express();
+const cors = require('cors')
 
+app.use(cors())
+
+app.get('/', (req, response)=> {
+    
+    console.log('Hello from Node')   
+    response.json({message: 'hello from the server'})
+
+});
+
+
+app.get('/poop/:text', (req, res)=> {
+    console.log(req.params.text)
+
+
+});
 
 
 // app.use(logger);
